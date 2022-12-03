@@ -1,16 +1,13 @@
-# Vue 3 + TypeScript + Vite
+# vis-three-exhibition-hall
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+本项目是[vis-three 框架](https://github.com/Shiotsukikaedesari/vis-three)包括其衍生产品生产的展示项目。
 
-## Recommended IDE Setup
+## 在线地址
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+[https://shiotsukikaedesari.github.io/vis-three-exhibition-hall](https://shiotsukikaedesari.github.io/vis-three-exhibition-hall)
 
-## Type Support For `.vue` Imports in TS
+## 参与者
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
-
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+<a href="https://github.com/Shiotsukikaedesari/vis-three-exhibition-hall/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Shiotsukikaedesari/vis-three-exhibition-hall" />
+</a>
