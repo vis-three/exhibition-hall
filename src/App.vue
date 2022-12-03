@@ -42,7 +42,7 @@ export default defineComponent({
     };
 
     const jump = (url: string) => {
-      window.open(url + "/index.html");
+      window.open(import.meta.env.BASE_URL + url + "/index.html");
     };
 
     return {
