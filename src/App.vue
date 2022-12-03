@@ -10,7 +10,7 @@
         @click="jump(item.url)"
       >
         <div class="app-preview">
-          <img :src="item.url + '/preview.png'" alt="" />
+          <img :src="getUrl(item.url)" alt="" />
         </div>
         <div class="app-message">
           <div class="app-name" v-text="item.name"></div>
@@ -37,8 +37,8 @@ export default defineComponent({
       config.push(...res);
     });
 
-    const getMessage = (item: any) => {
-      return `${item.desp}:${item.author}`;
+    const getUrl = (url: string) => {
+      return import.meta.env.BASE_URL + url + "/preview.png";
     };
 
     const jump = (url: string) => {
@@ -47,8 +47,8 @@ export default defineComponent({
 
     return {
       config,
-      getMessage,
       jump,
+      getUrl,
     };
   },
 });
