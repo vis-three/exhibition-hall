@@ -27,7 +27,7 @@ import { defineComponent, onMounted, onUnmounted, reactive, ref } from "vue";
 export default defineComponent({
   setup() {
     const getConfig = async () => {
-      const res = await fetch("/app.json");
+      const res = await fetch(import.meta.env.BASE_URL + "/app.json");
       return await res.json();
     };
 
