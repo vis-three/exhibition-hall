@@ -14,7 +14,10 @@
         </div>
         <div class="app-message">
           <div class="app-name" v-text="item.name"></div>
-          <div class="app-author">作者：{{ item.author }}</div>
+          <div class="app-auxiliary">
+            <span class="app-author">作者：{{ item.author }}</span>
+            <span class="app-date">日期：{{ item.date }}</span>
+          </div>
         </div>
       </div>
     </div>
@@ -105,8 +108,10 @@ export default defineComponent({
   font-weight: bold;
 }
 
-.app-author {
+.app-auxiliary {
   font-size: 14px;
   color: grey;
+  display: flex;
+  justify-content: space-between;
 }
 </style>
