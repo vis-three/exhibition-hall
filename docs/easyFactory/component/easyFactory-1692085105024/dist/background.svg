@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1140" style="enable-background:new 0 0 1920 1140;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#XMLID_57_);}
+	.st1{fill:#F5A817;}
+	.st2{fill:#71C7D5;}
+</style>
+<radialGradient id="XMLID_57_" cx="967.1508" cy="588.5327" r="731.2931" gradientTransform="matrix(1.0451 0 0 1.1188 -51.7505 -90.2303)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#171C61;stop-opacity:0.1"/>
+	<stop  offset="1" style="stop-color:#171C61;stop-opacity:0.1"/>
+</radialGradient>
+<polygon id="XMLID_3_" class="st0" points="1755.5,12.9 763.4,12.9 628.4,73.5 101.4,73.5 10.8,150.5 10.8,1012.2 144.5,1123.5 
+	1816.6,1123.5 1907.3,1042.2 1907.3,131.8 "/>
+<polygon id="XMLID_1_" class="st1" points="1907.3,103.7 1907.3,8.4 1791.1,8.4 "/>
+<polygon id="XMLID_2_" class="st1" points="5,1047.2 5,1128 99.2,1128 "/>
+<polygon id="XMLID_4_" class="st1" points="76.6,69 5,69 5,132.8 "/>
+<polygon id="XMLID_6_" class="st1" points="374.9,51.1 5,51.1 5,8.4 389.8,8.4 "/>
+<g id="XMLID_13_">
+	<polygon id="XMLID_17_" class="st2" points="542.1,8.4 524.5,51.1 562.5,51.1 580.1,8.4 	"/>
+	<polygon id="XMLID_18_" class="st2" points="585.3,8.4 567.7,51.1 605.7,51.1 623.3,8.4 	"/>
+	<polygon id="XMLID_19_" class="st2" points="628.8,8.4 611.2,51.1 649.2,51.1 666.8,8.4 	"/>
+	<polygon id="XMLID_20_" class="st2" points="496.1,8.4 478.5,51.1 516.5,51.1 534.1,8.4 	"/>
+	<polygon id="XMLID_21_" class="st2" points="451.1,8.4 433.5,51.1 471.6,51.1 489.1,8.4 	"/>
+	<polygon id="XMLID_22_" class="st2" points="406.2,8.4 388.6,51.1 426.6,51.1 444.2,8.4 	"/>
+</g>
+<g id="XMLID_5_">
+	<path id="XMLID_14_" class="st2" d="M1818.2,1128H142.8l-1-1.1c-0.1-0.1-0.3-0.3-0.4-0.4L6.6,1014V148.8l93-79.8h527.8L762.3,8.4
+		h994.9l1.2,1.3l153.1,120.2v914.3L1818.2,1128z M146.2,1119h1668.8l88.1-78.8V133.7L1753.8,17.4H764.4L629.5,78H103.3L15,152.3v858
+		L146.2,1119z"/>
+</g>
+</svg>
