@@ -1,0 +1,68 @@
+{
+  "name": "@platform-component/table",
+  "version": "0.0.1",
+  "description": "图表",
+  "main": "/dist/index.umd.js",
+  "module": "/dist/index.es.js",
+  "private": false,
+  "scripts": {
+    "dev": "vis-resm vue2 dev",
+    "build": "vis-resm vue2 build",
+    "preview": "vis-resm vue2 preview",
+    "lint": "eslint **/*.js **/*.vue"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "external": [],
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@vis-resm/cli": "0.0.7",
+    "@vue/composition-api": "^1.7.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.3.0",
+    "fast-glob": "^3.3.1",
+    "prettier": "^2.7.1",
+    "vite-plugin-svg-icons": "^2.0.1"
+  },
+  "dependencies": {
+    "echarts": "^5.4.3",
+    "vue": "^2.6.14"
+  },
+  "configuration": [
+    {
+      "name": "title",
+      "label": "标题",
+      "controller": "input"
+    },
+    {
+      "name": "icon",
+      "label": "图标",
+      "controller": "select",
+      "options": [
+        {
+          "label": "链库",
+          "value": "chain"
+        },
+        {
+          "label": "仓库",
+          "value": "home"
+        }
+      ]
+    },
+    {
+      "name": "url",
+      "label": "数据地址",
+      "controller": "input"
+    },
+    {
+      "name": "data",
+      "label": "数据",
+      "controller": "code"
+    }
+  ]
+}
