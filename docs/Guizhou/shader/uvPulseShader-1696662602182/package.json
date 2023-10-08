@@ -1,0 +1,72 @@
+{
+  "name": "@platform-shader/uv-plulse-shader",
+  "version": "0.0.1",
+  "description": "uv冲击shader",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0",
+  "main": "dist/uv-plulse-shader.umd.js",
+  "module": "dist/uv-plulse-shader.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vis-three/engine-modeling-support": "^0.6.8",
+    "@vis-three/middleware": "^0.6.18",
+    "three": "^0.141.0",
+    "vite": "^4.4.5"
+  },
+  "configuration": [
+    {
+      "name": "time",
+      "label": "时间",
+      "default": 0,
+      "controller": "number",
+      "setting": {
+        "step": 0.1
+      }
+    },
+    {
+      "name": "width",
+      "label": "宽度",
+      "default": 0.5,
+      "controller": "number",
+      "setting": {
+        "step": 0.01
+      }
+    },
+    {
+      "name": "color",
+      "label": "颜色",
+      "default": "rgb(255, 0, 0)",
+      "controller": "vector3-color"
+    },
+    {
+      "name": "center",
+      "label": "中心位置",
+      "default": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "controller": "vector2",
+      "setting": {
+        "step": 0.01,
+        "displayAccuracy": 2
+      }
+    },
+    {
+      "name": "fade",
+      "label": "渐变",
+      "default": true,
+      "controller": "switch"
+    },
+    {
+      "name": "outFade",
+      "label": "渐变翻转",
+      "default": false,
+      "controller": "switch"
+    }
+  ]
+}

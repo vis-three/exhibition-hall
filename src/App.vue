@@ -1,6 +1,6 @@
 <template>
   <div class="App-container">
-    <div class="app-title">vis-three-exhibition-hall</div>
+    <div class="app-title">Exhibition-hall</div>
 
     <div class="app-box">
       <div
@@ -30,7 +30,9 @@ import { defineComponent, onMounted, onUnmounted, reactive, ref } from "vue";
 export default defineComponent({
   setup() {
     const getConfig = async () => {
-      const res = await fetch(import.meta.env.BASE_URL + "/app.json");
+      const res = await fetch(
+        window.location.origin + import.meta.env.BASE_URL + "/app.json"
+      );
       return await res.json();
     };
 
@@ -41,11 +43,15 @@ export default defineComponent({
     });
 
     const getUrl = (url: string) => {
-      return import.meta.env.BASE_URL + url + "/preview.png";
+      return (
+        window.location.origin + import.meta.env.BASE_URL + url + "/preview.png"
+      );
     };
 
     const jump = (url: string) => {
-      window.open(import.meta.env.BASE_URL + url + "/index.html");
+      window.open(
+        window.location.origin + import.meta.env.BASE_URL + url + "/index.html"
+      );
     };
 
     return {
