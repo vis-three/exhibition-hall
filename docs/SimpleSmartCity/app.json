@@ -1,9 +1,9 @@
 {
   "assets": [
-    "/SimpleSmartCity/texture/spark1-1700551181444.png",
-    "/SimpleSmartCity/texture/åç¯-1701155252263.png",
-    "/SimpleSmartCity/texture/waternormals-1700538831973.jpg",
-    "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb"
+    "/exhibition-hall/SimpleSmartCity/texture/spark1-1700551181444.png",
+    "/exhibition-hall/SimpleSmartCity/texture/åç¯-1701155252263.png",
+    "/exhibition-hall/SimpleSmartCity/texture/waternormals-1700538831973.jpg",
+    "/exhibition-hall/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb"
   ],
   "animation": [
     {
@@ -198,7 +198,7 @@
         "y": 0.5437005190583547,
         "z": -0.015515072571198487
       },
-      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.0.geometry"
+      "url": "/exhibition-hall/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.0.geometry"
     },
     {
       "vid": "844fb1e4-f9ec-429b-b658-e1ba521917ec",
@@ -209,7 +209,7 @@
         "y": -1.0000288372492852,
         "z": 0.019750371976751446
       },
-      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.1.geometry"
+      "url": "/exhibition-hall/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.1.geometry"
     },
     {
       "vid": "e479e44b-7510-4fc7-92fd-467089f717d8",
@@ -220,7 +220,7 @@
         "y": 0.15895329960025997,
         "z": -0.1699355295267069
       },
-      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.2.geometry"
+      "url": "/exhibition-hall/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.2.geometry"
     },
     {
       "vid": "52d094ec-fc09-41db-aed2-1b434aef4425",
@@ -235,14 +235,14 @@
         { "start": 0, "count": "Infinity", "materialIndex": 0 },
         { "start": 0, "count": "Infinity", "materialIndex": 1 }
       ],
-      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.3.geometry"
+      "url": "/exhibition-hall/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.3.geometry"
     },
     {
       "vid": "7b21046a-87aa-49eb-9641-2826edab08d4",
       "type": "LoadGeometry",
       "name": "LoadGeometry-d4",
       "position": { "x": -0.08965137379418488 },
-      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.4.geometry"
+      "url": "/exhibition-hall/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.4.geometry"
     },
     {
       "vid": "da762aa8-2237-44bb-8770-bda6f3bad134",
@@ -1391,13 +1391,13 @@
       "name": "waternormals-62",
       "wrapS": 1000,
       "wrapT": 1000,
-      "url": "/SimpleSmartCity/texture/waternormals-1700538831973.jpg"
+      "url": "/exhibition-hall/SimpleSmartCity/texture/waternormals-1700538831973.jpg"
     },
     {
       "vid": "1f371d99-5f54-44e4-9599-e5a4ec9ca476",
       "type": "ImageTexture",
       "name": "spark1-76",
-      "url": "/SimpleSmartCity/texture/spark1-1700551181444.png"
+      "url": "/exhibition-hall/SimpleSmartCity/texture/spark1-1700551181444.png"
     },
     {
       "vid": "ed9e9b9d-ff28-4cc7-805a-1cf61d52b805",
@@ -1448,7 +1448,7 @@
       "vid": "de9f2d42-efa9-46c2-88f1-a6909091aaf2",
       "type": "ImageTexture",
       "name": "åç¯-8f",
-      "url": "/SimpleSmartCity/texture/åç¯-1701155252263.png"
+      "url": "/exhibition-hall/SimpleSmartCity/texture/åç¯-1701155252263.png"
     }
   ],
   "water": [
@@ -1471,7 +1471,7 @@
   "canvas": [
     {
       "$cid": "ab2e6d6c-1118-4a5f-b13a-ff1ca392d1f1",
-      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "$url": "/exhibition-hall/SimpleSmartCity/canvas/label-text-1698133497475",
       "width": 400,
       "height": 100,
       "text": "第一区1579亿元",
@@ -1482,7 +1482,7 @@
     },
     {
       "$cid": "3dd528f8-320a-4e8d-ac8e-36a107159e69",
-      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "$url": "/exhibition-hall/SimpleSmartCity/canvas/label-text-1698133497475",
       "width": 400,
       "height": 100,
       "text": "第二区1579亿元",
@@ -1493,7 +1493,7 @@
     },
     {
       "$cid": "61ad32c5-3530-4b89-aa2c-0b408f6eb5c2",
-      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "$url": "/exhibition-hall/SimpleSmartCity/canvas/label-text-1698133497475",
       "width": 400,
       "height": 100,
       "text": "第三区1579亿元",
@@ -1504,7 +1504,7 @@
     },
     {
       "$cid": "171a4d17-7a6d-4d83-b88b-b2bfb2f94bf6",
-      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "$url": "/exhibition-hall/SimpleSmartCity/canvas/label-text-1698133497475",
       "width": 400,
       "height": 100,
       "text": "第四区1579亿元",
@@ -1515,7 +1515,7 @@
     },
     {
       "$cid": "ce4785f3-f52a-4726-8c6e-8a03bf084424",
-      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "$url": "/exhibition-hall/SimpleSmartCity/canvas/label-text-1698133497475",
       "width": 400,
       "height": 100,
       "text": "第五区1579亿元",
@@ -1525,9 +1525,9 @@
       "backgroundOpacity": 0.7
     }
   ],
-  "canvasAssets": ["/SimpleSmartCity/canvas/label-text-1698133497475"],
+  "canvasAssets": ["/exhibition-hall/SimpleSmartCity/canvas/label-text-1698133497475"],
   "shaderAssets": [
-    "/SimpleSmartCity/shader/parallelScanShader-1700709562982",
-    "/SimpleSmartCity/shader/uvDiffuseShader-1699079823301"
+    "/exhibition-hall/SimpleSmartCity/shader/parallelScanShader-1700709562982",
+    "/exhibition-hall/SimpleSmartCity/shader/uvDiffuseShader-1699079823301"
   ]
 }
