@@ -1,0 +1,31 @@
+{
+  "grossIndustrial": [
+    {
+      "name": "第一产业",
+      "value": "2048"
+    },
+    {
+      "name": "第二产业",
+      "value": "1035"
+    },
+    {
+      "name": "第三产业",
+      "value": "1368"
+    }
+  ],
+  "peopleLivelihood": 95,
+  "fixedAssets": [
+    { "name": "基本建设投资", "value": 800 },
+    { "name": "更新改造投资", "value": 950 },
+    { "name": "房地产开发投资", "value": 750 },
+    { "name": "其他投资", "value": 660 }
+  ],
+  "enterpriseStatistics": [
+    { "name": "固有", "value": 325 },
+    { "name": "集体", "value": 650 },
+    { "name": "股份", "value": 380 },
+    { "name": "私营", "value": 760 },
+    { "name": "外商", "value": 500 },
+    { "name": "个人", "value": 160 }
+  ]
+}

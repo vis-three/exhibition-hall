@@ -1,0 +1,91 @@
+{
+  "name": "@platform-shader/parallel-scan-shader",
+  "version": "0.0.1",
+  "description": "平行扫光shader",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0",
+  "main": "dist/parallel-scan-shader.umd.js",
+  "module": "dist/parallel-scan-shader.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vis-three/engine-modeling-support": "^0.6.8",
+    "@vis-three/middleware": "^0.6.18",
+    "three": "^0.141.0",
+    "vite": "^4.4.5",
+    "javascript-obfuscator": "^4.1.0",
+    "rollup-plugin-obfuscator": "^1.0.3"
+  },
+  "configuration": [
+    {
+      "name": "time",
+      "label": "时间",
+      "default": 0,
+      "controller": "number",
+      "setting": {
+        "step": 0.1
+      }
+    },
+    {
+      "name": "fade",
+      "label": "渐变",
+      "default": 0.5,
+      "controller": "switch"
+    },
+    {
+      "name": "color",
+      "label": "颜色",
+      "default": "rgb(255, 242, 204)",
+      "controller": "vector3-color"
+    },
+    {
+      "name": "opactiy",
+      "label": "透明度",
+      "default": 0.8,
+      "controller": "number",
+      "setting": {
+        "step": 0.01
+      }
+    },
+    {
+      "name": "maxRange",
+      "label": "最大范围",
+      "default": 100,
+      "controller": "number",
+      "setting": {
+        "step": 1
+      }
+    },
+    {
+      "name": "minRange",
+      "label": "最小范围",
+      "default": -100,
+      "controller": "number",
+      "setting": {
+        "step": 1
+      }
+    },
+    {
+      "name": "width",
+      "label": "光晕宽度",
+      "default": 60,
+      "controller": "number",
+      "setting": {
+        "step": 1
+      }
+    },
+    {
+      "name": "speed",
+      "label": "速度",
+      "default": 0.5,
+      "controller": "number",
+      "setting": {
+        "step": 0.01
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "imports": [
+    {
+      "date": 2019,
+      "value": 120
+    },
+    {
+      "date": 2020,
+      "value": 132
+    },
+    {
+      "date": 2021,
+      "value": 101
+    },
+    {
+      "date": 2022,
+      "value": 190
+    },
+    {
+      "date": 2023,
+      "value": 220
+    }
+  ],
+  "exports": [
+    {
+      "date": 2019,
+      "value": 100
+    },
+    {
+      "date": 2020,
+      "value": 132
+    },
+    {
+      "date": 2021,
+      "value": 151
+    },
+    {
+      "date": 2022,
+      "value": 200
+    },
+    {
+      "date": 2023,
+      "value": 210
+    }
+  ]
+}

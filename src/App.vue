@@ -75,6 +75,7 @@ export default defineComponent({
 .app-box {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px;
 }
@@ -93,7 +94,7 @@ export default defineComponent({
 }
 
 .app-preview {
-  width: 15vw;
+  width: 14vw;
   height: 15vh;
   margin-bottom: 12px;
 }

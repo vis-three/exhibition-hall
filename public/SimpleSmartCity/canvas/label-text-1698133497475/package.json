@@ -1,0 +1,86 @@
+{
+  "name": "@platform-canvas/label-text",
+  "version": "0.0.1",
+  "description": "标签文字",
+  "main": "/dist/index.umd.js",
+  "module": "/dist/index.es.js",
+  "private": false,
+  "scripts": {
+    "dev": "vis-resm vue2 dev",
+    "build": "vis-resm vue2 build",
+    "preview": "vis-resm vue2 preview",
+    "lint": "eslint **/*.js **/*.vue"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "external": [],
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@vis-resm/cli": "0.0.7",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.3.0",
+    "javascript-obfuscator": "^4.1.0",
+    "prettier": "^2.7.1",
+    "rollup-plugin-obfuscator": "^1.0.3",
+    "three": "^0.141.0"
+  },
+  "dependencies": {
+    "@vis-three/convenient": "^0.6.5"
+  },
+  "files": [
+    "./dist",
+    "LICENSE",
+    "package.json",
+    "preview.jpg",
+    "readme.md"
+  ],
+  "configuration": [
+    {
+      "name": "width",
+      "label": "画布宽",
+      "default": 512,
+      "controller": "number"
+    },
+    {
+      "name": "height",
+      "label": "画布高",
+      "default": 512,
+      "controller": "number"
+    },
+    {
+      "name": "text",
+      "label": "文本",
+      "default": "默认文本",
+      "controller": "input"
+    },
+    {
+      "name": "fontSize",
+      "label": "字体大小",
+      "default": "80px",
+      "controller": "input"
+    },
+    {
+      "name": "color",
+      "label": "文字颜色",
+      "default": "rgb(255, 255, 255)",
+      "controller": "picker"
+    },
+    {
+      "name": "backgroundColor",
+      "label": "背景颜色",
+      "default": "rgb(0, 0, 255)",
+      "controller": "picker"
+    },
+    {
+      "name": "backgroundOpacity",
+      "label": "背景透明",
+      "default": 0.7,
+      "controller": "number"
+    }
+  ]
+}

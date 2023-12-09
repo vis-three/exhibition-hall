@@ -1,0 +1,1533 @@
+{
+  "assets": [
+    "/SimpleSmartCity/texture/spark1-1700551181444.png",
+    "/SimpleSmartCity/texture/åç¯-1701155252263.png",
+    "/SimpleSmartCity/texture/waternormals-1700538831973.jpg",
+    "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb"
+  ],
+  "animation": [
+    {
+      "vid": "ea39a0f0-8e9a-4d8b-a5a4-c516f48423ec",
+      "type": "ScriptAnimation",
+      "target": "171a6afb-239a-49b3-a3ab-0a04de0dd12b",
+      "script": { "name": "linearTime", "multiply": 1 },
+      "attribute": ".uniforms.time.value"
+    },
+    {
+      "vid": "2c2ff852-af5f-4569-a5a1-ab8f7d9a3234",
+      "type": "ScriptAnimation",
+      "target": "0e2db944-d3b6-48df-88ee-a5413da250d1",
+      "script": { "name": "linearTime", "multiply": 1 },
+      "attribute": ".material.uniforms.time.value"
+    },
+    {
+      "vid": "fa2e6dc1-d9cc-4f35-9702-897a77731e83",
+      "type": "ScriptAnimation",
+      "target": "c52c6d69-1e2a-4706-91f7-88a157515081",
+      "script": { "name": "linearTime", "multiply": 1 },
+      "attribute": ".material.uniforms.time.value"
+    },
+    {
+      "vid": "a389f388-55b5-4485-8c7b-5f6c6fc9041d",
+      "type": "ScriptAnimation",
+      "target": "55689569-10b4-4bad-b8ad-2768fbe3ff3c",
+      "script": { "name": "linearTime", "multiply": 4 },
+      "attribute": ".uniforms.time.value"
+    },
+    {
+      "vid": "2144d392-6fbf-4276-95c1-1a90012efb64",
+      "type": "ScriptAnimation",
+      "target": "a938212c-8c20-4007-91c5-76af23aecc37",
+      "script": { "name": "linearTime", "multiply": 4 },
+      "attribute": ".uniforms.time.value"
+    },
+    {
+      "vid": "5aea8bd5-a021-46a4-8f31-624a0370f678",
+      "type": "ScriptAnimation",
+      "target": "a93d4a66-cb07-40b0-aff6-0579846d9874",
+      "script": { "name": "linearTime", "multiply": 4 },
+      "attribute": ".uniforms.time.value"
+    },
+    {
+      "vid": "589d11e1-75f1-44df-98e0-ddc5e5f0078b",
+      "type": "ScriptAnimation",
+      "target": "61bc1424-4876-4116-adf8-23163d321807",
+      "script": { "name": "linearTime", "multiply": 4 },
+      "attribute": ".uniforms.time.value"
+    },
+    {
+      "vid": "f605d11e-9d99-4423-b850-d98814ca25ef",
+      "type": "ScriptAnimation",
+      "target": "6a5f30ed-0bab-4315-b996-cdca85ec6a7c",
+      "script": { "name": "linearTime", "multiply": 4 },
+      "attribute": ".uniforms.time.value"
+    }
+  ],
+  "animationAction": [],
+  "animationClip": [],
+  "bone": [],
+  "camera": [],
+  "constraintor": [
+    {
+      "vid": "87ceba67-7978-49d0-827c-f8e77c30d86c",
+      "type": "NumberConstraintor",
+      "name": "数值约束-f4",
+      "target": "0ca14be0-7a08-41dd-bf11-054ddfb48c55",
+      "targetAttr": "position.y",
+      "ref": "99bc2ecb-edae-4a07-8a8f-a377ec12bc69",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    },
+    {
+      "vid": "a838eee1-7911-4f40-b3ad-d634e827c61d",
+      "type": "NumberConstraintor",
+      "name": "数值约束-c6",
+      "target": "c722a3fe-3a21-4ed8-be0d-e092a25ecd34",
+      "targetAttr": "position.y",
+      "ref": "99bc2ecb-edae-4a07-8a8f-a377ec12bc69",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    },
+    {
+      "vid": "3f769f00-209b-419d-9317-f84b578bf006",
+      "type": "NumberConstraintor",
+      "name": "数值约束-f4",
+      "target": "19ec0b9f-949d-42c1-9b64-1dce9d262c61",
+      "targetAttr": "position.y",
+      "ref": "daef3bfe-1d52-4a92-a344-7bd4d725c291",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    },
+    {
+      "vid": "422f5c88-f454-4d6d-a1e9-662830a9d49e",
+      "type": "NumberConstraintor",
+      "name": "数值约束-c6",
+      "target": "6a124a0c-08f4-4971-aaff-086aab757a01",
+      "targetAttr": "position.y",
+      "ref": "daef3bfe-1d52-4a92-a344-7bd4d725c291",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    },
+    {
+      "vid": "a311701f-f8ae-481f-accf-1b9cbf8f449b",
+      "type": "NumberConstraintor",
+      "name": "数值约束-f4",
+      "target": "f97b83ca-35de-4fec-8a89-c584ae288b01",
+      "targetAttr": "position.y",
+      "ref": "4e6b05b8-e11a-456b-a363-b6c114a763d9",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    },
+    {
+      "vid": "ab3e830c-8c38-497e-97e1-261410aafab5",
+      "type": "NumberConstraintor",
+      "name": "数值约束-c6",
+      "target": "21a53a18-424c-4531-9e5a-a8042d7ab144",
+      "targetAttr": "position.y",
+      "ref": "4e6b05b8-e11a-456b-a363-b6c114a763d9",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    },
+    {
+      "vid": "335e4c70-cb03-45ea-8006-7699535df591",
+      "type": "NumberConstraintor",
+      "name": "数值约束-f4",
+      "target": "129dcaf2-285f-4ae9-ae3a-18c880161eee",
+      "targetAttr": "position.y",
+      "ref": "7f920dd2-5cfc-433c-bccc-71b40a6a50cc",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    },
+    {
+      "vid": "f62863ee-42ec-4db9-b9d9-4626015f4006",
+      "type": "NumberConstraintor",
+      "name": "数值约束-c6",
+      "target": "a6d86b28-0625-4c3e-9ad1-0a18da56c5d1",
+      "targetAttr": "position.y",
+      "ref": "7f920dd2-5cfc-433c-bccc-71b40a6a50cc",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    },
+    {
+      "vid": "4bcf0fe5-bbe9-41cf-abff-8df23f072288",
+      "type": "NumberConstraintor",
+      "name": "数值约束-f4",
+      "target": "bd03e014-14b7-45e4-a731-1a5f944581c4",
+      "targetAttr": "position.y",
+      "ref": "f207f1b4-8b97-452f-9862-7fd6f53d343b",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    },
+    {
+      "vid": "59f19396-c876-41ea-b9a0-8033edbf2430",
+      "type": "NumberConstraintor",
+      "name": "数值约束-c6",
+      "target": "13013d19-4811-4499-ab92-6426c1e98168",
+      "targetAttr": "position.y",
+      "ref": "f207f1b4-8b97-452f-9862-7fd6f53d343b",
+      "refAttr": "scale.y",
+      "offset": { "operate": "+", "value": 5 }
+    }
+  ],
+  "controls": [
+    { "vid": "DEFUALT-TransformControls", "type": "TransformControls" },
+    { "vid": "DEFUALT-OrbitControls", "type": "OrbitControls" }
+  ],
+  "css2D": [],
+  "css3D": [
+    {
+      "vid": "28327923-5b2d-4d19-ba14-150c6588122c",
+      "type": "CSS3DPlane",
+      "name": "C3平面-25",
+      "alias": "detailElement",
+      "position": { "x": 35.829383913128986, "y": 13.075433055819115 },
+      "scale": { "x": 0.08, "y": 0.08 },
+      "parent": "00e3f365-77da-4064-9f5c-1b97fc976923",
+      "width": 600,
+      "height": 500
+    }
+  ],
+  "curve": [],
+  "geometry": [
+    {
+      "vid": "a8b9993a-2df0-448f-9dbc-c071d1be2011",
+      "type": "LoadGeometry",
+      "name": "LoadGeometry-11",
+      "position": {
+        "x": 0.06530391257591654,
+        "y": 0.5437005190583547,
+        "z": -0.015515072571198487
+      },
+      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.0.geometry"
+    },
+    {
+      "vid": "844fb1e4-f9ec-429b-b658-e1ba521917ec",
+      "type": "LoadGeometry",
+      "name": "LoadGeometry-ec",
+      "position": {
+        "x": -0.04366780144514702,
+        "y": -1.0000288372492852,
+        "z": 0.019750371976751446
+      },
+      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.1.geometry"
+    },
+    {
+      "vid": "e479e44b-7510-4fc7-92fd-467089f717d8",
+      "type": "LoadGeometry",
+      "name": "LoadGeometry-d8",
+      "position": {
+        "x": 0.10825702365120299,
+        "y": 0.15895329960025997,
+        "z": -0.1699355295267069
+      },
+      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.2.geometry"
+    },
+    {
+      "vid": "52d094ec-fc09-41db-aed2-1b434aef4425",
+      "type": "LoadGeometry",
+      "name": "LoadGeometry-25",
+      "position": {
+        "x": 0.001019819812408002,
+        "y": 0.885868598416536,
+        "z": 0.27933215049773186
+      },
+      "groups": [
+        { "start": 0, "count": "Infinity", "materialIndex": 0 },
+        { "start": 0, "count": "Infinity", "materialIndex": 1 }
+      ],
+      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.3.geometry"
+    },
+    {
+      "vid": "7b21046a-87aa-49eb-9641-2826edab08d4",
+      "type": "LoadGeometry",
+      "name": "LoadGeometry-d4",
+      "position": { "x": -0.08965137379418488 },
+      "url": "/SimpleSmartCity/model/shanghai2.0-1702084400544/shanghai2.0.glb.scene.children.4.geometry"
+    },
+    {
+      "vid": "da762aa8-2237-44bb-8770-bda6f3bad134",
+      "type": "EdgesGeometry",
+      "name": "描边几何-描边-a0",
+      "center": false,
+      "target": "52d094ec-fc09-41db-aed2-1b434aef4425"
+    },
+    {
+      "vid": "e1499af7-347e-4372-9cd3-536fe553d91f",
+      "type": "PlaneGeometry",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "vid": "1b0c76ec-0ce3-423b-a095-1dd7aa5901ac",
+      "type": "BoxGeometry",
+      "name": "立方体-4b的几何",
+      "position": { "y": 1 },
+      "width": 4,
+      "height": 1,
+      "depth": 4
+    },
+    {
+      "vid": "6707134a-6e85-436e-a18a-4e8b74a465f4",
+      "type": "CircleGeometry",
+      "name": "圆形-46的几何",
+      "rotation": { "x": -1.5707963267948966 },
+      "radius": 10,
+      "segments": 32
+    },
+    {
+      "vid": "08963f3b-eab7-4d86-ad68-7370d8213c75",
+      "type": "BoxGeometry",
+      "name": "立方体-4b的几何",
+      "position": { "y": 1 },
+      "width": 4,
+      "height": 1,
+      "depth": 4
+    },
+    {
+      "vid": "c9e5f5c9-b752-4e0d-93e2-6b675bc36713",
+      "type": "CircleGeometry",
+      "name": "圆形-46的几何",
+      "rotation": { "x": -1.5707963267948966 },
+      "radius": 10,
+      "segments": 32
+    },
+    {
+      "vid": "a7a5ed28-4b3a-400d-8e05-2c41e67ef1fc",
+      "type": "BoxGeometry",
+      "name": "立方体-4b的几何",
+      "position": { "y": 1 },
+      "width": 4,
+      "height": 1,
+      "depth": 4
+    },
+    {
+      "vid": "b8fcff2f-e47f-4e06-8278-4a80e125e13a",
+      "type": "CircleGeometry",
+      "name": "圆形-46的几何",
+      "rotation": { "x": -1.5707963267948966 },
+      "radius": 10,
+      "segments": 32
+    },
+    {
+      "vid": "6c33776b-67b7-4d00-8417-b140fda73ead",
+      "type": "BoxGeometry",
+      "name": "立方体-4b的几何",
+      "position": { "y": 1 },
+      "width": 4,
+      "height": 1,
+      "depth": 4
+    },
+    {
+      "vid": "4a99b352-fa16-48a5-b8a5-b223610a2a33",
+      "type": "CircleGeometry",
+      "name": "圆形-46的几何",
+      "rotation": { "x": -1.5707963267948966 },
+      "radius": 10,
+      "segments": 32
+    },
+    {
+      "vid": "bf5e9757-a434-4989-90dc-c35c44652f7f",
+      "type": "BoxGeometry",
+      "name": "立方体-4b的几何",
+      "position": { "y": 1 },
+      "width": 4,
+      "height": 1,
+      "depth": 4
+    },
+    {
+      "vid": "4f87f068-4e84-4607-93fc-ebc3d73a1d53",
+      "type": "CircleGeometry",
+      "name": "圆形-46的几何",
+      "rotation": { "x": -1.5707963267948966 },
+      "radius": 10,
+      "segments": 32
+    },
+    {
+      "vid": "a1f75a5d-b925-42b1-ad9f-c11c52c7e895",
+      "type": "PathGeometry",
+      "name": "路径几何-路径-c2",
+      "path": "305f4666-6a6c-4537-b7d9-2cec1ede93a7",
+      "divisions": 300
+    },
+    {
+      "vid": "b17a1c33-462b-495c-ba11-e1d255bef878",
+      "type": "CircleGeometry",
+      "name": "圆形-64的几何",
+      "radius": 2,
+      "segments": 32
+    },
+    {
+      "vid": "d51ed235-6e83-49f9-8ca1-d83e235df7f6",
+      "type": "CircleGeometry",
+      "name": "圆形-13的几何",
+      "radius": 2,
+      "segments": 32
+    }
+  ],
+  "group": [
+    {
+      "vid": "2932fdb7-8975-4fa3-8331-2812459f2efa",
+      "type": "Group",
+      "name": "shanghai2",
+      "castShadow": false,
+      "receiveShadow": false,
+      "scale": { "x": 4, "y": 4, "z": 4 },
+      "parent": "DEFUALT-Scene",
+      "children": [
+        "2acff6e6-da59-4a7b-a927-973a964dfe38",
+        "2159c2f5-9d3a-4162-8879-3369c33a2e64",
+        "9dbd7a3f-7660-46ae-b452-f4cf7e6b0590",
+        "a1e50032-d3cc-434c-b2ef-693ecb00810d",
+        "a809f9ca-e4dc-4c5f-a20a-b3ee102951b4"
+      ]
+    },
+    {
+      "vid": "7282683b-c16f-4129-9773-acfa514e810f",
+      "type": "Group",
+      "name": "一区组-3b",
+      "position": {
+        "x": -61.38844112397871,
+        "y": 8.321813827591471,
+        "z": -79.88075680122975
+      },
+      "parent": "DEFUALT-Scene",
+      "children": [
+        "0ca14be0-7a08-41dd-bf11-054ddfb48c55",
+        "178efb29-7348-4079-b854-c8bda9c8e0e2",
+        "99bc2ecb-edae-4a07-8a8f-a377ec12bc69",
+        "7c64180e-a7ba-411e-a4c9-cf478d860501",
+        "c722a3fe-3a21-4ed8-be0d-e092a25ecd34"
+      ]
+    },
+    {
+      "vid": "ed9e5bcc-8c3a-4c8c-9bf9-490aadc482d7",
+      "type": "Group",
+      "name": "二区组-3b",
+      "position": {
+        "x": 53.83546960026754,
+        "y": 5.184809447601943,
+        "z": -99.91960266343384
+      },
+      "parent": "DEFUALT-Scene",
+      "children": [
+        "19ec0b9f-949d-42c1-9b64-1dce9d262c61",
+        "7c7bc8c9-591d-4551-8c92-1d1cb60a82ff",
+        "daef3bfe-1d52-4a92-a344-7bd4d725c291",
+        "7c64180e-a7ba-411e-a4c9-cf478d860501",
+        "6a124a0c-08f4-4971-aaff-086aab757a01"
+      ]
+    },
+    {
+      "vid": "e93f8d8c-bcb9-41a5-9fec-ddf0d24f5e32",
+      "type": "Group",
+      "name": "三区组-3b",
+      "position": { "y": 8.27073793727972, "z": -27.388308083088212 },
+      "parent": "DEFUALT-Scene",
+      "children": [
+        "f97b83ca-35de-4fec-8a89-c584ae288b01",
+        "7fb17466-d94e-46ca-b6d8-87f3e1df930e",
+        "4e6b05b8-e11a-456b-a363-b6c114a763d9",
+        "7c64180e-a7ba-411e-a4c9-cf478d860501",
+        "21a53a18-424c-4531-9e5a-a8042d7ab144"
+      ]
+    },
+    {
+      "vid": "534b0ae6-8755-4602-a889-622e6bbf70db",
+      "type": "Group",
+      "name": "四区组-3b",
+      "position": {
+        "x": 55.000801978125075,
+        "y": 4.660005097371325,
+        "z": 12.111341147685664
+      },
+      "parent": "DEFUALT-Scene",
+      "children": [
+        "129dcaf2-285f-4ae9-ae3a-18c880161eee",
+        "1966dd29-598c-47d9-80c4-cccd3d0f5f41",
+        "7f920dd2-5cfc-433c-bccc-71b40a6a50cc",
+        "7c64180e-a7ba-411e-a4c9-cf478d860501",
+        "a6d86b28-0625-4c3e-9ad1-0a18da56c5d1"
+      ]
+    },
+    {
+      "vid": "fee206a1-9e25-4908-9967-8b01efc814f9",
+      "type": "Group",
+      "name": "五区组-3b",
+      "position": {
+        "x": -60.323550925127066,
+        "y": 6.785170929322668,
+        "z": 69.67752111302997
+      },
+      "parent": "DEFUALT-Scene",
+      "children": [
+        "bd03e014-14b7-45e4-a731-1a5f944581c4",
+        "53765825-61fd-4ccf-b810-4775c394424f",
+        "f207f1b4-8b97-452f-9862-7fd6f53d343b",
+        "7c64180e-a7ba-411e-a4c9-cf478d860501",
+        "13013d19-4811-4499-ab92-6426c1e98168"
+      ]
+    },
+    {
+      "vid": "00e3f365-77da-4064-9f5c-1b97fc976923",
+      "type": "Group",
+      "name": "详情组",
+      "alias": "detail",
+      "position": { "x": 15 },
+      "parent": "21a53a18-424c-4531-9e5a-a8042d7ab144",
+      "children": [
+        "28327923-5b2d-4d19-ba14-150c6588122c",
+        "4a749f24-cfb5-4362-9cb2-63afb320a6e9",
+        "bb5da9a0-6aa6-43df-aacb-a5a8217fb84f",
+        "6559c14f-4e01-45b8-8d46-2d576a666af1"
+      ]
+    }
+  ],
+  "helper": [
+    {
+      "vid": "7e1faeab-b564-4e74-9fe7-87d3dd42c13f",
+      "type": "ObjectHelper",
+      "target": "99bc2ecb-edae-4a07-8a8f-a377ec12bc69"
+    },
+    {
+      "vid": "3c5ac99f-a689-4301-be49-5b83170639dd",
+      "type": "ObjectHelper",
+      "target": "178efb29-7348-4079-b854-c8bda9c8e0e2"
+    },
+    {
+      "vid": "c246144c-ffbd-4192-903d-990f609341eb",
+      "type": "ObjectHelper",
+      "target": "daef3bfe-1d52-4a92-a344-7bd4d725c291"
+    },
+    {
+      "vid": "a965d899-d768-485f-a7ab-ff42633d6e93",
+      "type": "ObjectHelper",
+      "target": "7c7bc8c9-591d-4551-8c92-1d1cb60a82ff"
+    },
+    {
+      "vid": "0fb32c82-4d59-4ca9-bb0d-3605fd332fc4",
+      "type": "ObjectHelper",
+      "target": "4e6b05b8-e11a-456b-a363-b6c114a763d9"
+    },
+    {
+      "vid": "ddb8dd5c-b2f2-46dd-acf9-bca0bf6c917b",
+      "type": "ObjectHelper",
+      "target": "7fb17466-d94e-46ca-b6d8-87f3e1df930e"
+    },
+    {
+      "vid": "6c0ac2b4-f04c-4ce5-9a55-6b0197b6ecf7",
+      "type": "ObjectHelper",
+      "target": "7f920dd2-5cfc-433c-bccc-71b40a6a50cc"
+    },
+    {
+      "vid": "117ad848-f20f-4443-ba41-8263b760fb08",
+      "type": "ObjectHelper",
+      "target": "1966dd29-598c-47d9-80c4-cccd3d0f5f41"
+    },
+    {
+      "vid": "72c81e1c-d579-4962-8782-8b4764771522",
+      "type": "ObjectHelper",
+      "target": "f207f1b4-8b97-452f-9862-7fd6f53d343b"
+    },
+    {
+      "vid": "d2a659b2-e028-4977-9fd7-9e0048c2c61c",
+      "type": "ObjectHelper",
+      "target": "53765825-61fd-4ccf-b810-4775c394424f"
+    },
+    {
+      "vid": "2c172822-8ea3-4114-8ce3-929d321afb17",
+      "type": "ObjectHelper",
+      "target": "bb5da9a0-6aa6-43df-aacb-a5a8217fb84f"
+    },
+    {
+      "vid": "e61800aa-8913-4e2b-af32-c9b13c51bdd1",
+      "type": "ObjectHelper",
+      "target": "4a749f24-cfb5-4362-9cb2-63afb320a6e9"
+    }
+  ],
+  "light": [
+    {
+      "vid": "b11979ae-8012-4bd1-a2e1-ea5983890da8",
+      "type": "DirectionalLight",
+      "name": "平行光-a8",
+      "position": { "y": 54.818899418514576, "z": 1.3921005082969913 },
+      "parent": "DEFUALT-Scene",
+      "color": "rgb(43, 141, 232)",
+      "intensity": 3.2,
+      "helper": "721bb393-b281-4561-88b2-61cfc39ad822"
+    }
+  ],
+  "line": [
+    {
+      "vid": "a1191e22-56c4-4a19-84bb-4c9e04b5c5a0",
+      "type": "LineSegments",
+      "name": "描边-a0",
+      "parent": "a1e50032-d3cc-434c-b2ef-693ecb00810d",
+      "material": "cf617bda-c408-4668-9309-1630ae6a3161",
+      "geometry": "da762aa8-2237-44bb-8770-bda6f3bad134"
+    },
+    {
+      "vid": "6559c14f-4e01-45b8-8d46-2d576a666af1",
+      "type": "Line",
+      "name": "路径-c2",
+      "parent": "00e3f365-77da-4064-9f5c-1b97fc976923",
+      "material": "d3f5b1fd-1e06-4f0c-9c8d-d8f7859dc48b",
+      "geometry": "a1f75a5d-b925-42b1-ad9f-c11c52c7e895"
+    }
+  ],
+  "material": [
+    {
+      "vid": "97203431-fa86-47e7-aa7c-eac38dc94c94",
+      "type": "MeshStandardMaterial",
+      "name": "道路材质",
+      "side": 2,
+      "color": "rgb(255, 144, 8)",
+      "emissive": "rgb(255, 140, 0)",
+      "metalness": 1,
+      "roughness": 0.8964735269546509
+    },
+    {
+      "vid": "abcb1e67-cd53-48c8-a61b-0de9d02b7af1",
+      "type": "MeshStandardMaterial",
+      "name": "地面材质",
+      "side": 2,
+      "color": "rgb(82, 82, 82)",
+      "metalness": 1,
+      "roughness": 0.8964735269546509
+    },
+    {
+      "vid": "230f148a-35df-4cc2-861f-cbf725e406ce",
+      "type": "MeshStandardMaterial",
+      "name": "smallminer_bake1_chair",
+      "side": 2,
+      "color": "rgb(204, 204, 204)",
+      "metalness": 1,
+      "roughness": 0.8964735269546509
+    },
+    {
+      "vid": "f635bc85-d882-4c8f-a6fb-52a664d8821e",
+      "type": "MeshStandardMaterial",
+      "name": "城市材质",
+      "side": 2,
+      "color": "rgb(232, 232, 232)",
+      "metalness": 1,
+      "roughness": 0.8964735269546509
+    },
+    {
+      "vid": "c05e97fb-dcd7-40f7-837b-ebf1dcd30846",
+      "type": "MeshStandardMaterial",
+      "name": "Mat.2",
+      "side": 2,
+      "color": "rgb(204, 204, 204)",
+      "metalness": 1,
+      "roughness": 0.8964735269546509
+    },
+    {
+      "vid": "cf617bda-c408-4668-9309-1630ae6a3161",
+      "type": "LineBasicMaterial",
+      "name": "城市描边材质",
+      "opacity": 0.1,
+      "transparent": true,
+      "polygonOffset": true,
+      "polygonOffsetFactor": 3,
+      "polygonOffsetUnits": 3,
+      "color": "rgb(41, 219, 255)"
+    },
+    {
+      "vid": "171a6afb-239a-49b3-a3ab-0a04de0dd12b",
+      "type": "ShaderMaterial",
+      "name": "城市扫光材质",
+      "transparent": true,
+      "blending": 2,
+      "polygonOffset": true,
+      "polygonOffsetFactor": -2,
+      "polygonOffsetUnits": -2,
+      "shader": "parallelScanShader",
+      "uniforms": {
+        "color": {
+          "value": { "r": 1, "g": 0.9882352941176471, "b": 0.9490196078431372 }
+        },
+        "time": { "value": 0 },
+        "opactiy": { "value": 0.38 },
+        "maxRange": { "value": 1200 },
+        "minRange": { "value": -1200 },
+        "width": { "value": 200 },
+        "speed": { "value": 0.3 },
+        "fade": { "value": true }
+      }
+    },
+    {
+      "vid": "de28a901-652b-43f0-93d1-4dcca8375f4a",
+      "type": "MeshBasicMaterial",
+      "name": "柱体材质",
+      "opacity": 0.85,
+      "transparent": true,
+      "color": "rgb(0, 157, 235)"
+    },
+    {
+      "vid": "55689569-10b4-4bad-b8ad-2768fbe3ff3c",
+      "type": "ShaderMaterial",
+      "name": "特效材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "shader": "uvDiffuseShader",
+      "uniforms": {
+        "time": { "value": 0 },
+        "width": { "value": 0.5 },
+        "color": { "value": { "r": 1, "g": 1, "b": 1 } },
+        "center": { "value": { "x": 0.5, "y": 0.5 } },
+        "multiply": { "value": 2 }
+      }
+    },
+    {
+      "vid": "8eff9952-f865-4b3f-805c-dd0fd2020219",
+      "type": "SpriteMaterial",
+      "name": "标签材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "map": "ed9e9b9d-ff28-4cc7-805a-1cf61d52b805",
+      "sizeAttenuation": false
+    },
+    {
+      "vid": "190fc27d-13a3-4ad8-ad5c-76fac32f6986",
+      "type": "MeshBasicMaterial",
+      "name": "柱体材质",
+      "opacity": 0.85,
+      "transparent": true,
+      "color": "rgb(0, 157, 235)"
+    },
+    {
+      "vid": "a938212c-8c20-4007-91c5-76af23aecc37",
+      "type": "ShaderMaterial",
+      "name": "特效材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "shader": "uvDiffuseShader",
+      "uniforms": {
+        "time": { "value": 0 },
+        "width": { "value": 0.5 },
+        "color": { "value": { "r": 1, "g": 1, "b": 1 } },
+        "center": { "value": { "x": 0.5, "y": 0.5 } },
+        "multiply": { "value": 2 }
+      }
+    },
+    {
+      "vid": "39039ec7-ae19-443a-a12e-5b8437fece1a",
+      "type": "SpriteMaterial",
+      "name": "标签材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "map": "a9e1848a-200a-4a25-99af-0d3251081c5f",
+      "sizeAttenuation": false
+    },
+    {
+      "vid": "65b13e90-bc13-4976-8c31-1a4f762ce3a0",
+      "type": "MeshBasicMaterial",
+      "name": "柱体材质",
+      "opacity": 0.85,
+      "transparent": true,
+      "color": "rgb(0, 157, 235)"
+    },
+    {
+      "vid": "a93d4a66-cb07-40b0-aff6-0579846d9874",
+      "type": "ShaderMaterial",
+      "name": "特效材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "shader": "uvDiffuseShader",
+      "uniforms": {
+        "time": { "value": 0 },
+        "width": { "value": 0.5 },
+        "color": { "value": { "r": 1, "g": 1, "b": 1 } },
+        "center": { "value": { "x": 0.5, "y": 0.5 } },
+        "multiply": { "value": 2 }
+      }
+    },
+    {
+      "vid": "a1824a09-3c6a-4eaf-b6bf-bebe6c7a6b04",
+      "type": "SpriteMaterial",
+      "name": "标签材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "map": "302f329f-5b2b-49a1-8d66-f1da9dcd0270",
+      "sizeAttenuation": false
+    },
+    {
+      "vid": "59d16a57-daa6-4b57-873f-13479743b293",
+      "type": "MeshBasicMaterial",
+      "name": "柱体材质",
+      "opacity": 0.85,
+      "transparent": true,
+      "color": "rgb(0, 157, 235)"
+    },
+    {
+      "vid": "61bc1424-4876-4116-adf8-23163d321807",
+      "type": "ShaderMaterial",
+      "name": "特效材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "shader": "uvDiffuseShader",
+      "uniforms": {
+        "time": { "value": 0 },
+        "width": { "value": 0.5 },
+        "color": { "value": { "r": 1, "g": 1, "b": 1 } },
+        "center": { "value": { "x": 0.5, "y": 0.5 } },
+        "multiply": { "value": 2 }
+      }
+    },
+    {
+      "vid": "f236131c-492c-4af7-af88-0c30d9ad1d7e",
+      "type": "SpriteMaterial",
+      "name": "标签材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "map": "ba37c196-317d-4932-a096-430709634bfb",
+      "sizeAttenuation": false
+    },
+    {
+      "vid": "1b729fa1-f0b8-464f-8463-f470590e6c74",
+      "type": "MeshBasicMaterial",
+      "name": "柱体材质",
+      "opacity": 0.85,
+      "transparent": true,
+      "color": "rgb(0, 157, 235)"
+    },
+    {
+      "vid": "6a5f30ed-0bab-4315-b996-cdca85ec6a7c",
+      "type": "ShaderMaterial",
+      "name": "特效材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "shader": "uvDiffuseShader",
+      "uniforms": {
+        "time": { "value": 0 },
+        "width": { "value": 0.5 },
+        "color": { "value": { "r": 1, "g": 1, "b": 1 } },
+        "center": { "value": { "x": 0.5, "y": 0.5 } },
+        "multiply": { "value": 2 }
+      }
+    },
+    {
+      "vid": "cc1de8e6-3f7b-4aed-a4bf-210010767dad",
+      "type": "SpriteMaterial",
+      "name": "标签材质",
+      "alphaTest": 0.01,
+      "transparent": true,
+      "map": "d57fe422-7f16-46d3-bc23-1273b6854aca",
+      "sizeAttenuation": false
+    },
+    {
+      "vid": "d3f5b1fd-1e06-4f0c-9c8d-d8f7859dc48b",
+      "type": "LineBasicMaterial",
+      "name": "基础线条材质c6"
+    },
+    {
+      "vid": "5f30f936-a59f-4457-b235-b991ddb91147",
+      "type": "MeshBasicMaterial",
+      "name": "基础网格材质cd",
+      "side": 2,
+      "transparent": true,
+      "color": "rgb(52, 228, 255)",
+      "alphaMap": "de9f2d42-efa9-46c2-88f1-a6909091aaf2"
+    }
+  ],
+  "mesh": [
+    {
+      "vid": "2acff6e6-da59-4a7b-a927-973a964dfe38",
+      "type": "Mesh",
+      "name": "ROADS",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": -1.4099842309951782,
+        "y": 0.48442113399505615,
+        "z": -5.062965393066406
+      },
+      "scale": {
+        "x": 0.02539999969303608,
+        "y": 0.02539999969303608,
+        "z": 0.02539999969303608
+      },
+      "parent": "2932fdb7-8975-4fa3-8331-2812459f2efa",
+      "material": "97203431-fa86-47e7-aa7c-eac38dc94c94",
+      "geometry": "a8b9993a-2df0-448f-9dbc-c071d1be2011"
+    },
+    {
+      "vid": "2159c2f5-9d3a-4162-8879-3369c33a2e64",
+      "type": "Mesh",
+      "name": "LANDMASS",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": 1.5783194303512573,
+        "y": 0.4726152718067169,
+        "z": -0.5493144989013672
+      },
+      "scale": {
+        "x": 0.02539999969303608,
+        "y": 0.02539999969303608,
+        "z": 0.02539999969303608
+      },
+      "parent": "2932fdb7-8975-4fa3-8331-2812459f2efa",
+      "material": "abcb1e67-cd53-48c8-a61b-0de9d02b7af1",
+      "geometry": "844fb1e4-f9ec-429b-b658-e1ba521917ec"
+    },
+    {
+      "vid": "9dbd7a3f-7660-46ae-b452-f4cf7e6b0590",
+      "type": "Mesh",
+      "name": "chair",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": 0.413737416267395,
+        "y": 0.4335930645465851,
+        "z": -14.732224464416504
+      },
+      "scale": {
+        "x": 0.02539999969303608,
+        "y": 0.02539999969303608,
+        "z": 0.02539999969303608
+      },
+      "parent": "2932fdb7-8975-4fa3-8331-2812459f2efa",
+      "material": "230f148a-35df-4cc2-861f-cbf725e406ce",
+      "geometry": "e479e44b-7510-4fc7-92fd-467089f717d8"
+    },
+    {
+      "vid": "a1e50032-d3cc-434c-b2ef-693ecb00810d",
+      "type": "Mesh",
+      "name": "城市",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": -1.84939444065094,
+        "y": 0.9135472774505615,
+        "z": -8.5458345413208
+      },
+      "scale": {
+        "x": 0.02539999969303608,
+        "y": 0.02539999969303608,
+        "z": 0.02539999969303608
+      },
+      "parent": "2932fdb7-8975-4fa3-8331-2812459f2efa",
+      "children": ["a1191e22-56c4-4a19-84bb-4c9e04b5c5a0"],
+      "material": [
+        "f635bc85-d882-4c8f-a6fb-52a664d8821e",
+        "171a6afb-239a-49b3-a3ab-0a04de0dd12b"
+      ],
+      "geometry": "52d094ec-fc09-41db-aed2-1b434aef4425"
+    },
+    {
+      "vid": "a809f9ca-e4dc-4c5f-a20a-b3ee102951b4",
+      "type": "Mesh",
+      "name": "drive",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": -3.8103225231170654,
+        "y": 0.22209031879901886,
+        "z": 0.6621068716049194
+      },
+      "scale": {
+        "x": 0.02539999969303608,
+        "y": 0.02539999969303608,
+        "z": 0.02539999969303608
+      },
+      "parent": "2932fdb7-8975-4fa3-8331-2812459f2efa",
+      "material": "c05e97fb-dcd7-40f7-837b-ebf1dcd30846",
+      "geometry": "7b21046a-87aa-49eb-9641-2826edab08d4"
+    },
+    {
+      "vid": "99bc2ecb-edae-4a07-8a8f-a377ec12bc69",
+      "type": "Mesh",
+      "name": "一区立方体-4b",
+      "alias": "pillar.first",
+      "scale": { "y": 19.805939106557272 },
+      "parent": "7282683b-c16f-4129-9773-acfa514e810f",
+      "pointerenter": [
+        {
+          "name": "changeCursor",
+          "params": { "cursor": "pointer", "delay": 0 }
+        }
+      ],
+      "pointerleave": [
+        { "name": "changeCursor", "params": { "cursor": "", "delay": 0 } }
+      ],
+      "click": [
+        {
+          "name": "focusObject",
+          "params": {
+            "target": "0ca14be0-7a08-41dd-bf11-054ddfb48c55",
+            "camera": "",
+            "space": "world",
+            "offset": { "x": 0, "y": 0, "z": 100 },
+            "delay": 0,
+            "duration": 1000,
+            "timingFunction": "EASING_QUADRATIC_INOUT",
+            "back": false
+          }
+        },
+        {
+          "name": "setParent",
+          "params": {
+            "target": "00e3f365-77da-4064-9f5c-1b97fc976923",
+            "parent": "c722a3fe-3a21-4ed8-be0d-e092a25ecd34",
+            "delay": 0
+          }
+        }
+      ],
+      "material": "de28a901-652b-43f0-93d1-4dcca8375f4a",
+      "geometry": "1b0c76ec-0ce3-423b-a095-1dd7aa5901ac",
+      "helper": "7e1faeab-b564-4e74-9fe7-87d3dd42c13f"
+    },
+    {
+      "vid": "178efb29-7348-4079-b854-c8bda9c8e0e2",
+      "type": "Mesh",
+      "name": "圆形-46",
+      "parent": "7282683b-c16f-4129-9773-acfa514e810f",
+      "material": "55689569-10b4-4bad-b8ad-2768fbe3ff3c",
+      "geometry": "6707134a-6e85-436e-a18a-4e8b74a465f4",
+      "helper": "3c5ac99f-a689-4301-be49-5b83170639dd"
+    },
+    {
+      "vid": "daef3bfe-1d52-4a92-a344-7bd4d725c291",
+      "type": "Mesh",
+      "name": "二区立方体-4b",
+      "alias": "pillar.second",
+      "scale": { "y": 19.805939106557272 },
+      "parent": "ed9e5bcc-8c3a-4c8c-9bf9-490aadc482d7",
+      "pointerenter": [
+        {
+          "name": "changeCursor",
+          "params": { "cursor": "pointer", "delay": 0 }
+        }
+      ],
+      "pointerleave": [
+        { "name": "changeCursor", "params": { "cursor": "", "delay": 0 } }
+      ],
+      "click": [
+        {
+          "name": "focusObject",
+          "params": {
+            "target": "19ec0b9f-949d-42c1-9b64-1dce9d262c61",
+            "camera": "",
+            "space": "world",
+            "offset": { "x": 0, "y": 0, "z": 100 },
+            "delay": 0,
+            "duration": 1000,
+            "timingFunction": "EASING_QUADRATIC_INOUT",
+            "back": false
+          }
+        },
+        {
+          "name": "setParent",
+          "params": {
+            "target": "00e3f365-77da-4064-9f5c-1b97fc976923",
+            "parent": "6a124a0c-08f4-4971-aaff-086aab757a01",
+            "delay": 0
+          }
+        }
+      ],
+      "material": "190fc27d-13a3-4ad8-ad5c-76fac32f6986",
+      "geometry": "08963f3b-eab7-4d86-ad68-7370d8213c75",
+      "helper": "c246144c-ffbd-4192-903d-990f609341eb"
+    },
+    {
+      "vid": "7c7bc8c9-591d-4551-8c92-1d1cb60a82ff",
+      "type": "Mesh",
+      "name": "圆形-46",
+      "parent": "ed9e5bcc-8c3a-4c8c-9bf9-490aadc482d7",
+      "material": "a938212c-8c20-4007-91c5-76af23aecc37",
+      "geometry": "c9e5f5c9-b752-4e0d-93e2-6b675bc36713",
+      "helper": "a965d899-d768-485f-a7ab-ff42633d6e93"
+    },
+    {
+      "vid": "4e6b05b8-e11a-456b-a363-b6c114a763d9",
+      "type": "Mesh",
+      "name": "三区立方体-4b",
+      "alias": "pillar.third",
+      "scale": { "y": 19.805939106557272 },
+      "parent": "e93f8d8c-bcb9-41a5-9fec-ddf0d24f5e32",
+      "pointerenter": [
+        {
+          "name": "changeCursor",
+          "params": { "cursor": "pointer", "delay": 0 }
+        }
+      ],
+      "pointerleave": [
+        { "name": "changeCursor", "params": { "cursor": "", "delay": 0 } }
+      ],
+      "click": [
+        {
+          "name": "focusObject",
+          "params": {
+            "target": "f97b83ca-35de-4fec-8a89-c584ae288b01",
+            "camera": "",
+            "space": "world",
+            "offset": { "x": 0, "y": 0, "z": 100 },
+            "delay": 0,
+            "duration": 1000,
+            "timingFunction": "EASING_QUADRATIC_INOUT",
+            "back": false
+          }
+        },
+        {
+          "name": "setParent",
+          "params": {
+            "target": "00e3f365-77da-4064-9f5c-1b97fc976923",
+            "parent": "21a53a18-424c-4531-9e5a-a8042d7ab144",
+            "delay": 0
+          }
+        }
+      ],
+      "material": "65b13e90-bc13-4976-8c31-1a4f762ce3a0",
+      "geometry": "a7a5ed28-4b3a-400d-8e05-2c41e67ef1fc",
+      "helper": "0fb32c82-4d59-4ca9-bb0d-3605fd332fc4"
+    },
+    {
+      "vid": "7fb17466-d94e-46ca-b6d8-87f3e1df930e",
+      "type": "Mesh",
+      "name": "圆形-46",
+      "parent": "e93f8d8c-bcb9-41a5-9fec-ddf0d24f5e32",
+      "material": "a93d4a66-cb07-40b0-aff6-0579846d9874",
+      "geometry": "b8fcff2f-e47f-4e06-8278-4a80e125e13a",
+      "helper": "ddb8dd5c-b2f2-46dd-acf9-bca0bf6c917b"
+    },
+    {
+      "vid": "7f920dd2-5cfc-433c-bccc-71b40a6a50cc",
+      "type": "Mesh",
+      "name": "四区立方体-4b",
+      "alias": "pillar.fourth",
+      "scale": { "y": 19.805939106557272 },
+      "parent": "534b0ae6-8755-4602-a889-622e6bbf70db",
+      "pointerenter": [
+        {
+          "name": "changeCursor",
+          "params": { "cursor": "pointer", "delay": 0 }
+        }
+      ],
+      "pointerleave": [
+        { "name": "changeCursor", "params": { "cursor": "", "delay": 0 } }
+      ],
+      "click": [
+        {
+          "name": "focusObject",
+          "params": {
+            "target": "129dcaf2-285f-4ae9-ae3a-18c880161eee",
+            "camera": "",
+            "space": "world",
+            "offset": { "x": 0, "y": 0, "z": 100 },
+            "delay": 0,
+            "duration": 1000,
+            "timingFunction": "EASING_QUADRATIC_INOUT",
+            "back": false
+          }
+        },
+        {
+          "name": "setParent",
+          "params": {
+            "target": "00e3f365-77da-4064-9f5c-1b97fc976923",
+            "parent": "a6d86b28-0625-4c3e-9ad1-0a18da56c5d1",
+            "delay": 0
+          }
+        }
+      ],
+      "material": "59d16a57-daa6-4b57-873f-13479743b293",
+      "geometry": "6c33776b-67b7-4d00-8417-b140fda73ead",
+      "helper": "6c0ac2b4-f04c-4ce5-9a55-6b0197b6ecf7"
+    },
+    {
+      "vid": "1966dd29-598c-47d9-80c4-cccd3d0f5f41",
+      "type": "Mesh",
+      "name": "圆形-46",
+      "parent": "534b0ae6-8755-4602-a889-622e6bbf70db",
+      "material": "61bc1424-4876-4116-adf8-23163d321807",
+      "geometry": "4a99b352-fa16-48a5-b8a5-b223610a2a33",
+      "helper": "117ad848-f20f-4443-ba41-8263b760fb08"
+    },
+    {
+      "vid": "f207f1b4-8b97-452f-9862-7fd6f53d343b",
+      "type": "Mesh",
+      "name": "五区立方体-4b",
+      "alias": "pillar.fifth",
+      "scale": { "y": 19.805939106557272 },
+      "parent": "fee206a1-9e25-4908-9967-8b01efc814f9",
+      "pointerenter": [
+        {
+          "name": "changeCursor",
+          "params": { "cursor": "pointer", "delay": 0 }
+        }
+      ],
+      "pointerleave": [
+        { "name": "changeCursor", "params": { "cursor": "", "delay": 0 } }
+      ],
+      "click": [
+        {
+          "name": "focusObject",
+          "params": {
+            "target": "bd03e014-14b7-45e4-a731-1a5f944581c4",
+            "camera": "",
+            "space": "world",
+            "offset": { "x": 0, "y": 0, "z": 100 },
+            "delay": 0,
+            "duration": 1000,
+            "timingFunction": "EASING_QUADRATIC_INOUT",
+            "back": false
+          }
+        },
+        {
+          "name": "setParent",
+          "params": {
+            "target": "00e3f365-77da-4064-9f5c-1b97fc976923",
+            "parent": "13013d19-4811-4499-ab92-6426c1e98168",
+            "delay": 0
+          }
+        }
+      ],
+      "material": "1b729fa1-f0b8-464f-8463-f470590e6c74",
+      "geometry": "bf5e9757-a434-4989-90dc-c35c44652f7f",
+      "helper": "72c81e1c-d579-4962-8782-8b4764771522"
+    },
+    {
+      "vid": "53765825-61fd-4ccf-b810-4775c394424f",
+      "type": "Mesh",
+      "name": "圆形-46",
+      "parent": "fee206a1-9e25-4908-9967-8b01efc814f9",
+      "material": "6a5f30ed-0bab-4315-b996-cdca85ec6a7c",
+      "geometry": "4f87f068-4e84-4607-93fc-ebc3d73a1d53",
+      "helper": "d2a659b2-e028-4977-9fd7-9e0048c2c61c"
+    },
+    {
+      "vid": "bb5da9a0-6aa6-43df-aacb-a5a8217fb84f",
+      "type": "Mesh",
+      "name": "圆形-64",
+      "position": { "z": 0.03877749684956511 },
+      "parent": "00e3f365-77da-4064-9f5c-1b97fc976923",
+      "material": "5f30f936-a59f-4457-b235-b991ddb91147",
+      "geometry": "b17a1c33-462b-495c-ba11-e1d255bef878",
+      "helper": "2c172822-8ea3-4114-8ce3-929d321afb17"
+    },
+    {
+      "vid": "4a749f24-cfb5-4362-9cb2-63afb320a6e9",
+      "type": "Mesh",
+      "name": "圆形-13",
+      "position": { "x": 12.126344262764086, "y": 13.249571741101057 },
+      "parent": "00e3f365-77da-4064-9f5c-1b97fc976923",
+      "material": "5f30f936-a59f-4457-b235-b991ddb91147",
+      "geometry": "d51ed235-6e83-49f9-8ca1-d83e235df7f6",
+      "helper": "e61800aa-8913-4e2b-af32-c9b13c51bdd1"
+    }
+  ],
+  "modifier": [],
+  "object3D": [
+    {
+      "vid": "c722a3fe-3a21-4ed8-be0d-e092a25ecd34",
+      "type": "Object3D",
+      "name": "一区空对象-27",
+      "position": { "y": 24.805939106557272 },
+      "parent": "7282683b-c16f-4129-9773-acfa514e810f"
+    },
+    {
+      "vid": "6a124a0c-08f4-4971-aaff-086aab757a01",
+      "type": "Object3D",
+      "name": "二区空对象-27",
+      "position": { "y": 24.805939106557272 },
+      "parent": "ed9e5bcc-8c3a-4c8c-9bf9-490aadc482d7"
+    },
+    {
+      "vid": "21a53a18-424c-4531-9e5a-a8042d7ab144",
+      "type": "Object3D",
+      "name": "三区空对象-27",
+      "position": { "y": 24.805939106557272 },
+      "parent": "e93f8d8c-bcb9-41a5-9fec-ddf0d24f5e32",
+      "children": ["00e3f365-77da-4064-9f5c-1b97fc976923"]
+    },
+    {
+      "vid": "a6d86b28-0625-4c3e-9ad1-0a18da56c5d1",
+      "type": "Object3D",
+      "name": "四区空对象-27",
+      "position": { "y": 24.805939106557272 },
+      "parent": "534b0ae6-8755-4602-a889-622e6bbf70db"
+    },
+    {
+      "vid": "13013d19-4811-4499-ab92-6426c1e98168",
+      "type": "Object3D",
+      "name": "五区空对象-27",
+      "position": { "y": 24.805939106557272 },
+      "parent": "fee206a1-9e25-4908-9967-8b01efc814f9"
+    }
+  ],
+  "particle": [
+    {
+      "vid": "c52c6d69-1e2a-4706-91f7-88a157515081",
+      "type": "FloatParticle",
+      "name": "漂浮粒子-81",
+      "renderOrder": 1,
+      "position": { "y": 16.456807018175994 },
+      "scale": {
+        "x": 2.461641014007644,
+        "y": 0.2682348391077067,
+        "z": 3.3887783537355816
+      },
+      "parent": "DEFUALT-Scene",
+      "amount": 1000,
+      "size": 8,
+      "alphaMap": "1f371d99-5f54-44e4-9599-e5a4ec9ca476",
+      "refColor": "rgb(255, 228, 24)",
+      "colorRange": 0.02
+    }
+  ],
+  "pass": [],
+  "path": [
+    {
+      "vid": "305f4666-6a6c-4537-b7d9-2cec1ede93a7",
+      "type": "Path",
+      "name": "路径-3b",
+      "curves": [
+        {
+          "curve": "line",
+          "params": [
+            -0.17671517671517137, -3.944304526105059e-31, 2.9835164673715227,
+            8.622311350056611
+          ]
+        },
+        {
+          "curve": "line",
+          "params": [
+            2.9835164673715227, 8.622311350056611, 11.701894100347253,
+            13.11772481705973
+          ]
+        }
+      ]
+    }
+  ],
+  "points": [],
+  "reflector": [],
+  "renderer": [
+    {
+      "vid": "DEFUALT-WebGLRenderer",
+      "type": "WebGLRenderer",
+      "clearColor": "rgba(15, 15, 15, 1)",
+      "physicallyCorrectLights": true,
+      "shadowMap": { "enabled": true, "type": 1 }
+    }
+  ],
+  "scene": [
+    {
+      "vid": "DEFUALT-Scene",
+      "type": "Scene",
+      "name": "默认场景",
+      "children": [
+        "2932fdb7-8975-4fa3-8331-2812459f2efa",
+        "b11979ae-8012-4bd1-a2e1-ea5983890da8",
+        "0e2db944-d3b6-48df-88ee-a5413da250d1",
+        "c52c6d69-1e2a-4706-91f7-88a157515081",
+        "7282683b-c16f-4129-9773-acfa514e810f",
+        "ed9e5bcc-8c3a-4c8c-9bf9-490aadc482d7",
+        "e93f8d8c-bcb9-41a5-9fec-ddf0d24f5e32",
+        "534b0ae6-8755-4602-a889-622e6bbf70db",
+        "fee206a1-9e25-4908-9967-8b01efc814f9"
+      ],
+      "fog": { "type": "" }
+    }
+  ],
+  "shape": [],
+  "skeleton": [],
+  "skinnedMesh": [],
+  "sprite": [
+    {
+      "vid": "0ca14be0-7a08-41dd-bf11-054ddfb48c55",
+      "type": "Sprite",
+      "name": "一区精灵-bd",
+      "alias": "sprite.first",
+      "position": { "y": 24.805939106557272 },
+      "scale": { "x": 0.2, "y": 0.05 },
+      "parent": "7282683b-c16f-4129-9773-acfa514e810f",
+      "material": "8eff9952-f865-4b3f-805c-dd0fd2020219"
+    },
+    {
+      "vid": "19ec0b9f-949d-42c1-9b64-1dce9d262c61",
+      "type": "Sprite",
+      "name": "二区精灵-bd",
+      "alias": "sprite.second",
+      "position": { "y": 24.805939106557272 },
+      "scale": { "x": 0.2, "y": 0.05 },
+      "parent": "ed9e5bcc-8c3a-4c8c-9bf9-490aadc482d7",
+      "material": "39039ec7-ae19-443a-a12e-5b8437fece1a"
+    },
+    {
+      "vid": "f97b83ca-35de-4fec-8a89-c584ae288b01",
+      "type": "Sprite",
+      "name": "三区精灵-bd",
+      "alias": "sprite.third",
+      "position": { "y": 24.805939106557272 },
+      "scale": { "x": 0.2, "y": 0.05 },
+      "parent": "e93f8d8c-bcb9-41a5-9fec-ddf0d24f5e32",
+      "material": "a1824a09-3c6a-4eaf-b6bf-bebe6c7a6b04"
+    },
+    {
+      "vid": "129dcaf2-285f-4ae9-ae3a-18c880161eee",
+      "type": "Sprite",
+      "name": "四区精灵-bd",
+      "alias": "sprite.fourth",
+      "position": { "y": 24.805939106557272 },
+      "scale": { "x": 0.2, "y": 0.05 },
+      "parent": "534b0ae6-8755-4602-a889-622e6bbf70db",
+      "material": "f236131c-492c-4af7-af88-0c30d9ad1d7e"
+    },
+    {
+      "vid": "bd03e014-14b7-45e4-a731-1a5f944581c4",
+      "type": "Sprite",
+      "name": "五区精灵-bd",
+      "alias": "sprite.fifth",
+      "position": { "y": 24.805939106557272 },
+      "scale": { "x": 0.2, "y": 0.05 },
+      "parent": "fee206a1-9e25-4908-9967-8b01efc814f9",
+      "material": "cc1de8e6-3f7b-4aed-a4bf-210010767dad"
+    }
+  ],
+  "texture": [
+    {
+      "vid": "34019d86-91de-4c63-9dc0-710c1363d462",
+      "type": "ImageTexture",
+      "name": "waternormals-62",
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "url": "/SimpleSmartCity/texture/waternormals-1700538831973.jpg"
+    },
+    {
+      "vid": "1f371d99-5f54-44e4-9599-e5a4ec9ca476",
+      "type": "ImageTexture",
+      "name": "spark1-76",
+      "url": "/SimpleSmartCity/texture/spark1-1700551181444.png"
+    },
+    {
+      "vid": "ed9e9b9d-ff28-4cc7-805a-1cf61d52b805",
+      "type": "CanvasTexture",
+      "name": "画布贴图-74",
+      "wrapS": 1000,
+      "needsUpdate": true,
+      "url": "ab2e6d6c-1118-4a5f-b13a-ff1ca392d1f1",
+      "alias": "label.first"
+    },
+    {
+      "vid": "a9e1848a-200a-4a25-99af-0d3251081c5f",
+      "type": "CanvasTexture",
+      "name": "画布贴图-74",
+      "wrapS": 1000,
+      "needsUpdate": true,
+      "url": "3dd528f8-320a-4e8d-ac8e-36a107159e69",
+      "alias": "label.second"
+    },
+    {
+      "vid": "302f329f-5b2b-49a1-8d66-f1da9dcd0270",
+      "type": "CanvasTexture",
+      "name": "画布贴图-74",
+      "wrapS": 1000,
+      "needsUpdate": true,
+      "url": "61ad32c5-3530-4b89-aa2c-0b408f6eb5c2",
+      "alias": "label.third"
+    },
+    {
+      "vid": "ba37c196-317d-4932-a096-430709634bfb",
+      "type": "CanvasTexture",
+      "name": "画布贴图-74",
+      "wrapS": 1000,
+      "needsUpdate": true,
+      "url": "171a4d17-7a6d-4d83-b88b-b2bfb2f94bf6",
+      "alias": "label.fourth"
+    },
+    {
+      "vid": "d57fe422-7f16-46d3-bc23-1273b6854aca",
+      "type": "CanvasTexture",
+      "name": "画布贴图-74",
+      "wrapS": 1000,
+      "needsUpdate": true,
+      "url": "ce4785f3-f52a-4726-8c6e-8a03bf084424",
+      "alias": "label.fifth"
+    },
+    {
+      "vid": "de9f2d42-efa9-46c2-88f1-a6909091aaf2",
+      "type": "ImageTexture",
+      "name": "åç¯-8f",
+      "url": "/SimpleSmartCity/texture/åç¯-1701155252263.png"
+    }
+  ],
+  "water": [
+    {
+      "vid": "0e2db944-d3b6-48df-88ee-a5413da250d1",
+      "type": "DeepWater",
+      "name": "深水-d1",
+      "rotation": { "x": -1.5707963267948966 },
+      "scale": { "x": 1.1999999999999997, "y": 1.408163265306133 },
+      "parent": "DEFUALT-Scene",
+      "geometry": "e1499af7-347e-4372-9cd3-536fe553d91f",
+      "waterNormals": "34019d86-91de-4c63-9dc0-710c1363d462",
+      "waterColor": "rgb(0, 17, 35)",
+      "sunColor": "rgb(0, 0, 0)",
+      "size": 3.7,
+      "distortionScale": 5
+    }
+  ],
+  "component": [],
+  "canvas": [
+    {
+      "$cid": "ab2e6d6c-1118-4a5f-b13a-ff1ca392d1f1",
+      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "width": 400,
+      "height": 100,
+      "text": "第一区1579亿元",
+      "fontSize": "35px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(0, 157, 255)",
+      "backgroundOpacity": 0.7
+    },
+    {
+      "$cid": "3dd528f8-320a-4e8d-ac8e-36a107159e69",
+      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "width": 400,
+      "height": 100,
+      "text": "第二区1579亿元",
+      "fontSize": "35px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(0, 157, 255)",
+      "backgroundOpacity": 0.7
+    },
+    {
+      "$cid": "61ad32c5-3530-4b89-aa2c-0b408f6eb5c2",
+      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "width": 400,
+      "height": 100,
+      "text": "第三区1579亿元",
+      "fontSize": "35px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(0, 157, 255)",
+      "backgroundOpacity": 0.7
+    },
+    {
+      "$cid": "171a4d17-7a6d-4d83-b88b-b2bfb2f94bf6",
+      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "width": 400,
+      "height": 100,
+      "text": "第四区1579亿元",
+      "fontSize": "35px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(0, 157, 255)",
+      "backgroundOpacity": 0.7
+    },
+    {
+      "$cid": "ce4785f3-f52a-4726-8c6e-8a03bf084424",
+      "$url": "/SimpleSmartCity/canvas/label-text-1698133497475",
+      "width": 400,
+      "height": 100,
+      "text": "第五区1579亿元",
+      "fontSize": "35px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(0, 157, 255)",
+      "backgroundOpacity": 0.7
+    }
+  ],
+  "canvasAssets": ["/SimpleSmartCity/canvas/label-text-1698133497475"],
+  "shaderAssets": [
+    "/SimpleSmartCity/shader/parallelScanShader-1700709562982",
+    "/SimpleSmartCity/shader/uvDiffuseShader-1699079823301"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "first": {
+    "address": "第一区",
+    "value": 423
+  },
+  "second": {
+    "address": "第二区",
+    "value": 640
+  },
+  "third": {
+    "address": "第三区",
+    "value": 964
+  },
+  "fourth": {
+    "address": "第四区",
+    "value": 561
+  },
+  "fifth": {
+    "address": "第五区",
+    "value": 657
+  }
+}

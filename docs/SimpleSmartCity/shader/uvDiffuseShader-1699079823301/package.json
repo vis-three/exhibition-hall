@@ -1,0 +1,71 @@
+{
+  "name": "@platform-shader/uv-diffuse-shader",
+  "version": "0.0.1",
+  "description": "uv扩散shader",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0",
+  "main": "dist/uv-diffuse-shader.umd.js",
+  "module": "dist/uv-diffuse-shader.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vis-three/engine-modeling-support": "^0.6.8",
+    "@vis-three/middleware": "^0.6.18",
+    "three": "^0.141.0",
+    "vite": "^4.4.5",
+    "javascript-obfuscator": "^4.1.0",
+    "rollup-plugin-obfuscator": "^1.0.3"
+  },
+  "configuration": [
+    {
+      "name": "time",
+      "label": "时间",
+      "default": 0,
+      "controller": "number",
+      "setting": {
+        "step": 0.1
+      }
+    },
+    {
+      "name": "width",
+      "label": "宽度",
+      "default": 0.5,
+      "controller": "number",
+      "setting": {
+        "step": 0.01
+      }
+    },
+    {
+      "name": "multiply",
+      "label": "倍率",
+      "default": 2,
+      "controller": "number",
+      "setting": {
+        "step": 0.1
+      }
+    },
+    {
+      "name": "color",
+      "label": "颜色",
+      "default": "rgb(255, 255, 255)",
+      "controller": "vector3-color"
+    },
+    {
+      "name": "center",
+      "label": "中心位置",
+      "default": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "controller": "vector2",
+      "setting": {
+        "step": 0.01,
+        "displayAccuracy": 2
+      }
+    }
+  ]
+}
